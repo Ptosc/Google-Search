@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Erweiterte Suche</title>
+    <link rel=stylesheet href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pages">
+            <a href="index.html">Reguläre Suche</a>
+        </div>
+        <h1>Seiten suchen, die...</h1>
+        <div class="search" id="advanced_search">
+            <form action="https://www.google.com/search" id="advanced_search_form">
+                <input id="first_advanced_search" type="text" name="as_q" placeholder="alle diese Wörter enthalten">
+                <input type="text" name="as_epq" placeholder="genau dieses Wort oder diese Wortgruppe enthalten">
+                <input type="text" name="as_oq" placeholder="eines dieser Wörter enthalten">
+                <input type="text" name="as_eq" placeholder="keines der dieser Wörter enthalten">
+                <input type="submit" value="Erweiterte Suche">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
